@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Lotto Number Generator</title>
+ </head>
+ <body>
+  <!-- numbers box -->
+  <div class="lotto-box">
+   <h1 class="lotto-title">Lotto Number Generator</h1>
+   <div class="numbers">
+    <span class="lotto-numbers">1</span>
+    <span class="lotto-numbers">1</span>
+    <span class="lotto-numbers">1</span>
+    <span class="lotto-numbers">1</span>
+    <span class="lotto-numbers">1</span>
+    <span class="lotto-numbers">1</span>
+   </div>
+
+   <!-- configs -->
+   <div class="configs">
+    <button class="generate-btn" id="generate-btn">Generate Numbers</button>
+    <select class="generate-btn" name="lotto-type" id="lotto-type">
+     <option value="5">5</option>
+     <option value="10">10</option>
+     <option value="20">20</option>
+     <option value="50">50</option>
+    </select>
+   </div>
+  </div>
+
+  <!-- lotto nombuers list -->
+  <div class="lotto-type">
+   <h2 class="lotto-title">Best Numbers</h2>
+
+   <div class="numbers chosen">
+    <span id="try-count">0</span>
+    <span class="best-nums chosen-nums">1</span>
+    <span class="best-nums chosen-nums">1</span>
+    <span class="best-nums chosen-nums">1</span>
+    <span class="best-nums chosen-nums">1</span>
+    <span class="best-nums chosen-nums">1</span>
+    <span class="best-nums chosen-nums">1</span>
+   </div>
+  </div>
+
+  <!-- script -->
+  <script src="generate.js"></script>
+ </body>
+</html>

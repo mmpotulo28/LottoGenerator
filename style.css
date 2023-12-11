@@ -1,0 +1,130 @@
+.lotto-box {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border: 2px solid yellow;
+}
+
+.lotto-box .lotto-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.numbers {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    padding: 10px 0;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lotto-numbers {
+    width: 40px;
+    aspect-ratio: 1/1;
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 30px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 3px 3px green;
+    transition: all 0.3s ease-in-out;
+} 
+
+.lotto-numbers:hover {
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+    scale: 1.2;
+    box-shadow: 3px 3px 3px yellow;
+}
+
+.generate-btn {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 3px green;
+}
+
+.generate-btn:hover {
+    cursor: pointer;
+    scale: 0.9;
+    box-shadow: 6px 6px 6px green;
+}
+
+#lotto-type {
+    background-color: rgb(240, 239, 239);
+}
+
+.chosen-nums {
+    width: fit-content;
+    padding: 5px 10px;
+    aspect-ratio: 1/1;
+    background-color: green;
+    border-radius: 50%;
+    font-size: 20px;
+    color: yellow;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chosen {
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.lottos {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid green;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.lotto-type {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+#try-count{
+    background-color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    aspect-ratio: 1/1;
+    border-radius: 30%;
+    font-size: 25px;
+    color: auto;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
